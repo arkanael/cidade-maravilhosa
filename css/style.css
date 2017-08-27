@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    background-image: url(../img/fundo.jpg);        
+    background-size: 100%;    
+    
+    font-family: calibri;
+}
+
+#total{
+    width: 1000px;
+    margin: auto;
+}
+
+#topo{
+    text-align: center;    
+}
+
+#logo{
+    /*margin-top: 45px;
+    margin-bottom: 45px;*/
+    
+    margin: 45px 0; /*vertical(top/bottom), horizontal(left/right)*/    
+}
+
+#menu{
+    margin-bottom: 10px;
+}
+
+/*formatando os links do id menu*/
+#menu a{
+    color: #000000;
+    text-decoration: none; /*retira o sublinhado*/
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+}
+
+#imagens{
+    width: 980px; /*1000 - 20 do padding horizontal*/
+    height: 180px; /*200 - 20 do padding vertical*/
+    background-color: #FFF;    
+    padding: 10px; /*espaçamento interno (margem interna)*/        
+    
+    margin: 10px 0;
+}
+
+#imagens img{
+    float: left;
+    margin-right: 10px;
+}
+
+/*quando o elemento img for o último filho*/
+#imagens img:last-child{
+    margin-right: 0;
+}
+
+#conteudo{
+    width: 1000px;
+    height: auto;
+    background-color: #FFF;
+    padding: 20px;
+    
+    box-sizing: border-box; 
+    /*Respeite a largura e a altura mesmo com o padding ou borda*/
+    
+    display: table;
+}
+
+#principal{
+    width: 605px;
+    float: left;
+}
+
+#galeria{
+    width: 332px;
+    float: right;
+}
+
+#rodape{
+    text-align: center;
+}
+
+#rodape p{
+    color: #FFF; 
+}
